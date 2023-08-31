@@ -1,0 +1,24 @@
+Package: DMNN
+Type: Package
+Title: Train Discrete Morphologinal Neural Networks
+Version: 0.1.0
+Author: Diego Marcondes
+Maintainer: Diego Marcondes <dmarcondes@ime.usp.br>
+Description: Train Canonical Discrete Morphological Neural Networks via the lattice gradiente descent algorithm (LGDA) and the stochastic LGDA.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
+Depends: 
+    R (>= 2.10),
+    tidyverse
+Imports:
+    POSetR,
+    doParallel,
+    foreach,
+    ggplot2,
+    igraph,
+    latex2exp,
+    mmand,
+    parallel
+Reference: D. Marcondes, J. Barrera. Discrete Morphological Neural Networks. 2023.
